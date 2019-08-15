@@ -16,9 +16,9 @@
                         </div>
                         <hr>
                     @endforeach
-
-                    {{ $questions -> links() }}
-              
+                    <div class="mx-auto">
+                       {{ $questions -> links() }}
+                    </div>            
                 </div>
             </div>
         </div>
